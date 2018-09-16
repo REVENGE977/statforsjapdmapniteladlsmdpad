@@ -4,7 +4,7 @@ const fs = require("fs");
 const prefix = '!'
 var port = 3000;
 
-const bot = new Discord.Client({disableEveryone: false, autoReconnect:true});
+const bot = new Discord.Client()
 bot.commands = new Discord.Collection();
 
 fs.readdir("./cmds/", (err, files) => {
