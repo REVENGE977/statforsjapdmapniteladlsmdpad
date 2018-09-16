@@ -1,7 +1,7 @@
 const dotenv = require('dotenv').config();
 const Discord = require("discord.js");
 const fs = require("fs");
-const prefix = 'F!'
+const prefix = '!'
 var port = 3000;
 
 const bot = new Discord.Client({disableEveryone: false, autoReconnect:true});
